@@ -11,9 +11,9 @@ public class Ex01 {
 		System.out.println("1- Crie um método chamado soma que recebe dois números como parâmetros e retorna a soma deles.");
 		
 		Scanner leia = new Scanner(System.in);
-			System.out.println("Digite o numero 01");
+			System.out.println("Digite um numero");
 			int numero01 = leia.nextInt();
-			System.out.println("Digite o numero 02");
+			System.out.println("Digite outro numero");
 			int numero02 = leia.nextInt();
 			System.out.println("A soma é " + soma(numero01, numero02));
 		leia.close();
